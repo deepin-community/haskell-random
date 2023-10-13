@@ -1,8 +1,14 @@
-haskell-random (1.1-deepin1) unstable; urgency=medium
+haskell-random (1.2.1.1-2) unstable; urgency=medium
 
-  * Rebuild
+  * Disable testsuites that cause a dependency loop.
 
- -- Deepin Packages Builder <packages@deepin.org>  Mon, 14 Nov 2022 17:40:40 +0800
+ -- Clint Adams <clint@debian.org>  Wed, 15 Jun 2022 19:22:41 -0400
+
+haskell-random (1.2.1.1-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Tue, 14 Jun 2022 13:22:11 -0400
 
 haskell-random (1.1-12) unstable; urgency=medium
 
