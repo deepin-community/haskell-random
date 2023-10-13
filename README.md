@@ -1,18 +1,33 @@
-The Haskell Standard Library -- Random Number Generation
-========================================================
-[![Build Status](https://secure.travis-ci.org/haskell/random.svg?branch=master)](http://travis-ci.org/haskell/random)
+# The Haskell Standard Library
 
-This library provides a basic interface for (splittable) random number generators.
+## Random Number Generation
+
+### Status
+
+| Language | Github Actions | Drone.io | Coveralls |
+|:--------:|:--------------:|:--------:|:---------:|
+| ![GitHub top language](https://img.shields.io/github/languages/top/haskell/random.svg) | [![Build Status](https://github.com/haskell/random/workflows/random-CI/badge.svg)](https://github.com/haskell/random/actions) | [![Build Status](https://cloud.drone.io/api/badges/haskell/random/status.svg?ref=refs/heads/master)](https://cloud.drone.io/haskell/random/) | [![Coverage Status](https://coveralls.io/repos/github/haskell/random/badge.svg?branch=master)](https://coveralls.io/github/haskell/random?branch=master)
+
+|    Github Repo     | Hackage | Nightly | LTS |
+|:-------------------|:-------:|:-------:|:---:|
+|  [`random`](https://github.com/haskell/random)| [![Hackage](https://img.shields.io/hackage/v/random.svg)](https://hackage.haskell.org/package/random)| [![Nightly](https://www.stackage.org/package/random/badge/nightly)](https://www.stackage.org/nightly/package/random)| [![LTS](https://www.stackage.org/package/random/badge/lts)](https://www.stackage.org/lts/package/random)
+
+### Description
+
+This library provides a basic interface for (splittable) pseudo-random number
+generators.
 
 The API documentation can be found here:
 
-   http://hackage.haskell.org/package/random/docs/System-Random.html
+> http://hackage.haskell.org/package/random/docs/System-Random.html
 
-A module supplying this interface is required for Haskell 98 (but not Haskell
-2010). An older [version]
-(http://www.haskell.org/ghc/docs/latest/html/libraries/haskell98/Random.html)
-of this library is included with GHC in the haskell98 package. This newer
-version, with compatible api, is included in the [Haskell Platform]
-(http://www.haskell.org/platform/contents.html).
+An [older version][haskell98-version] of this library is included with GHC in
+the `haskell98` package. This newer version is included in the [Haskell
+Platform][haskell-platform].
 
-Please report bugs in the Github [issue tracker] (https://github.com/haskell/random/issues) (no longer in the GHC trac).
+Please report bugs in the [GitHub issue tracker][issue-tracker] (no longer in
+the GHC trac).
+
+[haskell-platform]: http://www.haskell.org/platform/contents.html
+[haskell98-version]: https://downloads.haskell.org/~ghc/7.6.3/docs/html/libraries/haskell98/Random.html
+[issue-tracker]: https://github.com/haskell/random/issues
